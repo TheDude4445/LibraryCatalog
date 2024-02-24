@@ -94,8 +94,7 @@ public class Book {
 	}
 
 	//Helper Methods
-	@Override
-	public String toString() {
+	public String returnBookDetails() {
 		return "Book [id=" + id + ", title=" + title + ", author=" + author + ", isbn=" + isbn + "]";
 	}
 }
