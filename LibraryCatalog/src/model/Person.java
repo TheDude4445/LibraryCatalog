@@ -67,8 +67,7 @@ public class Person {
 	}
 	
 	//Helper Methods
-	@Override
-	public String toString() {
+	public String returnPersonDetails() {
 		return "Person [id=" + id + ", personName=" + personName + "]";
 	}
 }
